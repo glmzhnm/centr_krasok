@@ -29,7 +29,7 @@ logger = logging.getLogger(__name__)
 
 # ─── Config ────────────────────────────────────────────────────────────────────
 # Вставьте сюда ваши ключи (ОБЯЗАТЕЛЬНО В КАВЫЧКАХ)
-TELEGRAM_TOKEN = os.environ.get("8061527614:AAHtrJ40CPbawzK6bzTXhvPvsTOhPDmgCB8")
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")  # Начинается на gsk_...
 
 MAX_HISTORY = 10
